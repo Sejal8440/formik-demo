@@ -1,0 +1,29 @@
+header nav .logo {
+  height: 50px;
+  width: 150px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+header nav .logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+header nav .navigation .nav-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+header nav .navigation .nav-item li {
+  padding: 0 15px;
+}
+header nav .navigation .nav-item li a {
+  text-decoration: none;
+}
